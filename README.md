@@ -1,4 +1,5 @@
-# sw-mac-docker-container
-This project fully based on the [https://github.com/markshust/docker-magento](https://github.com/markshust/docker-magento)
+#Docker container for sw project (Mac)
 
-It's ready for mac
+This project fully based on [https://github.com/markshust/docker-magento](https://github.com/markshust/docker-magento).
+Please read docs there.
+
