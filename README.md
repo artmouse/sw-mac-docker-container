@@ -11,4 +11,4 @@ Please read docs there.
 * Add the project files env.php
 * `bin/start`
 * `bin/composer install`
-* Restore the dbs
+* `bin/mysql < sql/20221222-local.sql` Example of db restoring
