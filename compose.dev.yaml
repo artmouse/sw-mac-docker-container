@@ -21,6 +21,18 @@ services:
       #- ./src/patches:/var/www/html/patches:cached
       #- ./src/var/log:/var/www/html/var/log:cached
       #- ./src/var/report:/var/www/html/var/report:cached
+#     All required folders
+      - ./src/bin:/var/www/html/bin:cached
+      - ./src/dev:/var/www/html/dev:cached
+      - ./src/lib:/var/www/html/lib:cached
+      - ./src/patches:/var/www/html/patches:cached
+      - ./src/phpserver:/var/www/html/phpserver:cached
+      - ./src/pub:/var/www/html/pub:cached
+      - ./src/scripts:/var/www/html/scripts:cached
+      - ./src/setup:/var/www/html/setup:cached
+      - ./src/update:/var/www/html/update:cached
+      - ./src/var:/var/www/html/var:cached
+      - ./src/veslicense:/var/www/html/veslicense:cached
 
   phpfpm:
     volumes: *appvolumes
